@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revotronics - Technical Symposium</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="images/logo.png" alt="Revotronics Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#about" class="nav-item">About</a>
+            <a href="#events" class="nav-item">Events</a>
+            <a href="#rules" class="nav-item">Rules</a>
+            <a href="#faqs" class="nav-item">FAQs</a>
+            <a href="#contact" class="nav-item">Contact</a>
+            <a href="#login" class="nav-item login-btn">Login</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <canvas id="background-animation"></canvas>
+        <div class="hero-content">
+            <div class="logo-container">
+                <img src="images/Revotronics_Title.png" alt="Symposium Logo" class="main-logo">
+            </div>
+            <div class="subtitle">
+                A National Level Technical Symposium
+            </div>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                Rajalakshmi Engineering College, Thandalam
+            </div>
+            <a href="#events" class="cta-button">
+                <span>Explore Events</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-title">
+            <h2>About Us</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="about-container">
+            <!-- About REC -->
+            <div class="about-card" data-aos="fade-up">
+                <h3>About REC</h3>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/REC.jpg" alt="REC Campus">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="about-text">
+                        <p>Rajalakshmi Engineering College, started in 1997, is an autonomous institution linked to Anna University. With 26 years of academic success, it's ranked the 3rd most preferred private engineering college in Tamil Nadu. The college offers 19 UG and 11 PG courses, plus programs in management, architecture, and nursing, producing skilled professionals every year.</p>
+                        <div class="stats-container">
+                            <div class="stat-item">
+                                <span class="stat-number">26</span>
+                                <span class="stat-label">Years of Excellence</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">19</span>
+                                <span class="stat-label">UG Programs</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">11</span>
+                                <span class="stat-label">PG Programs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About ECE -->
+            <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>About ECE</h3>
+                <div class="about-content reverse">
+                    <div class="about-text">
+                        <p>The Electronics and Communication Engineering Department started in 1997. It offers courses for UG, PG, and Ph.D. students. From the beginning, the department has focused on research, helping students become skilled researchers. Each year, over 95% of eligible students get placed in top companies. The department has been producing skilled engineers who can compete globally since it began.</p>
+                        <div class="stats-container">
+                            <div class="stat-item">
+                                <span class="stat-number">95</span>
+                                <span class="stat-label">Placement Rate</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">25</span>
+                                <span class="stat-label">Years of Excellence</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Research Papers</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/ece.jpg" alt="ECE Department">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+<section id="events" class="events-section">
+    <div class="section-title">
+        <h2>Events</h2>
+        <div class="title-underline"></div>
+    </div>
+
+    <!-- Slot 1 -->
+    <div class="slot-container">
+        <h3 class="slot-title">Slot 1</h3>
+        <div class="events-grid">
+            <!-- Technical Events -->
+            <div class="event-card technical" data-aos="fade-up">
+                <div class="event-type">Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <h4>Paper Presentation</h4>
+                <p>Present your innovative ideas and research papers.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <div class="event-card technical" data-aos="fade-up" data-aos-delay="100">
+                <div class="event-type">Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h4>Code Debug</h4>
+                <p>Test your debugging skills with challenging problems.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <div class="event-card technical" data-aos="fade-up" data-aos-delay="200">
+                <div class="event-type">Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <h4>Circuit Design</h4>
+                <p>Design and simulate electronic circuits.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <!-- Non-Technical Events -->
+            <div class="event-card non-technical" data-aos="fade-up" data-aos-delay="300">
+                <div class="event-type">Non-Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h4>Tech Quiz</h4>
+                <p>Test your knowledge in technology and current affairs.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <div class="event-card non-technical" data-aos="fade-up" data-aos-delay="400">
+                <div class="event-type">Non-Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h4>Photography</h4>
+                <p>Showcase your photography skills and creativity.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <div class="event-card non-technical" data-aos="fade-up" data-aos-delay="500">
+                <div class="event-type">Non-Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h4>Gaming</h4>
+                <p>Compete in exciting gaming tournaments.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slot 2 -->
+    <div class="slot-container">
+        <h3 class="slot-title">Slot 2</h3>
+        <div class="events-grid">
+            <!-- Technical Events -->
+            <div class="event-card technical" data-aos="fade-up">
+                <div class="event-type">Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h4>Project Expo</h4>
+                <p>Showcase your innovative technical projects.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <div class="event-card technical" data-aos="fade-up" data-aos-delay="100">
+                <div class="event-type">Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h4>Tech Hunt</h4>
+                <p>Technical treasure hunt with challenging clues.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <div class="event-card technical" data-aos="fade-up" data-aos-delay="200">
+                <div class="event-type">Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h4>Hackathon</h4>
+                <p>24-hour coding challenge to solve real problems.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <!-- Non-Technical Events -->
+            <div class="event-card non-technical" data-aos="fade-up" data-aos-delay="300">
+                <div class="event-type">Non-Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h4>Poster Design</h4>
+                <p>Create eye-catching technical themed posters.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <div class="event-card non-technical" data-aos="fade-up" data-aos-delay="400">
+                <div class="event-type">Non-Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-film"></i>
+                </div>
+                <h4>Short Film</h4>
+                <p>Create and present short films on tech themes.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+
+            <div class="event-card non-technical" data-aos="fade-up" data-aos-delay="500">
+                <div class="event-type">Non-Technical</div>
+                <div class="event-icon">
+                    <i class="fas fa-chess"></i>
+                </div>
+                <h4>Strategy Games</h4>
+                <p>Test your strategic thinking abilities.</p>
+                <a href="#" class="event-btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="rules-section">
+        <div class="section-title">
+            <h2>Rules & Guidelines</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="rules-container">
+            <div class="rules-card" data-aos="fade-up">
+                <div class="rules-list">
+                    <div class="rule-item" data-aos="fade-left" data-aos-delay="100">
+                        <div class="rule-icon">
+                            <i class="fas fa-user-clock"></i>
+                        </div>
+                        <p>On spot registration is not entertained.</p>
+                    </div>
+
+                    <div class="rule-item" data-aos="fade-left" data-aos-delay="200">
+                        <div class="rule-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <p>No refund on the registration fee will be entertained.</p>
+                    </div>
+
+                    <div class="rule-item" data-aos="fade-left" data-aos-delay="300">
+                        <div class="rule-icon">
+                            <i class="fas fa-comment-slash"></i>
+                        </div>
+                        <p>Participants are strictly advised to refrain themselves from using abusive language, hate speech and politics inside the campus.</p>
+                    </div>
+
+                    <div class="rule-item" data-aos="fade-left" data-aos-delay="400">
+                        <div class="rule-icon">
+                            <i class="fas fa-ban"></i>
+                        </div>
+                        <p>We have zero tolerancy policy on consumption of tobacco, liquor and drugs inside the campus once found guilty harsh steps will be taken on the participants.</p>
+                    </div>
+
+                    <div class="rule-item" data-aos="fade-left" data-aos-delay="500">
+                        <div class="rule-icon">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <p>Rules are subjected to change at the discretion of Management and Event organisers before and during the commencement of an event.</p>
+                    </div>
+
+                    <div class="rule-item transport-rule" data-aos="fade-left" data-aos-delay="600">
+                        <div class="rule-icon">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <p>Transport facilities via college bus will be provided. Please refer <a href="https://www.rectransport.com/" target="_blank">Transportation <i class="fas fa-external-link-alt"></i></a> for bus timings and routes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs" class="faqs-section">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="faqs-container">
+            <div class="faq-card" data-aos="fade-up">
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="faq-question">
+                        <span class="question-text">How do I register for the events?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Registration can be done through our online portal. Click on the 'Login' button at the top of the page, create an account, and follow the registration process for your desired events.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="200">
+                    <div class="faq-question">
+                        <span class="question-text">Can I participate in multiple events?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! You can participate in multiple events as long as they don't have timing conflicts. Check the event schedule carefully before registering for multiple events.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="faq-question">
+                        <span class="question-text">What should I bring on the event day?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Please bring your college ID, registration confirmation, and any specific materials required for your events. For technical events, laptops may be required. Event-specific requirements will be sent via email.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="400">
+                    <div class="faq-question">
+                        <span class="question-text">Is accommodation provided?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, accommodation can be arranged upon request. Please mention your accommodation requirements during registration. Additional charges may apply.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="500">
+                    <div class="faq-question">
+                        <span class="question-text">Are there any team events?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, several events allow team participation. Team size requirements vary by event. Check individual event details for specific team size limits and requirements.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="600">
+                    <div class="faq-question">
+                        <span class="question-text">Will certificates be provided?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all participants will receive digital participation certificates. Winners will receive additional merit certificates and prizes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+     <section id="contact" class="contact-section">
+    <div class="contact-section">
+        <div class="contact-heading">
+            <h2>CONTACT US</h2>
+            <div class="heading-underline"></div>
+        </div>
+    
+        <div class="contact-wrapper" data-aos="fade-up">
+            <form class="contact-form-wrapper">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="roll-number">Roll Number</label>
+                    <input type="text" id="roll-number" name="roll-number" required>
+                </div>
+                <div class="input-group">
+                    <label for="department">Department</label>
+                    <input type="text" id="department" name="department" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="form-submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div class="footer-section">
+    <div class="footer-left">
+        <img src="images/Revotronics_Title.png" alt="Logo" class="footer-logo">
+        <p>A National Level Technical Symposium</p>
+    </div>
+    <div class="footer-right">
+        <h4>Follow us on Instagram</h4>
+        <div class="social-icons">
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <!-- Add the copyright text here -->
+    <div class="footer-bottom">
+        <p> <b>&copy; Revotronics All Rights Reserved 2025 </b></p>
+    </div>
+</div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="animation.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
